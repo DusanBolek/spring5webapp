@@ -1,0 +1,8 @@
+package cz.databazista.spring5webapp.repositories;
+
+import cz.databazista.spring5webapp.domain.Author;
+import org.springframework.data.repository.CrudRepository;
+
+public interface AuthorRepository extends CrudRepository<Author, Long> {
+
+}
